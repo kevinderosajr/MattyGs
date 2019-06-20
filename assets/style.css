@@ -189,6 +189,7 @@ body {
   [class*="col-"] {
     width: 100%;
   }
+  #cheers{font-size: 60px}
 }
 
   
