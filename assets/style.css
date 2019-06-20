@@ -1,0 +1,198 @@
+/* 
+Font families
+font-family: 'Lobster', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Bungee', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Gravitas One', cursive; */
+  
+  
+  
+  #navbar {
+    overflow: hidden;
+    /* background-color: #05386B; */
+    background-color: #25274D;
+    z-index: 1;
+
+
+  }
+  
+
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+
+   
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: #05386B;
+  }
+  
+  #navbar a.active {
+    background-color: rgb(156, 158, 165);
+    color: white;
+  }
+
+  .headerImage {
+    /* background-color: #05386B; */
+    background-color: #25274D;
+    text-align: center;
+  }
+
+
+body {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  
+  #cheers{
+    color: #f2f2f2;
+    font-size: 100px;
+    text-align: center;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Bungee', cursive;
+    font-weight: lighter;
+
+  }
+
+#headline{
+  color: #f2f2f2;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+
+}
+
+#buildIt{
+  color: #25274D;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-weight: lighter;
+}
+
+#blurb{
+  color: #f2f2f2;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-weight: lighter;
+}
+
+#story{
+  color: #25274D;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-weight: lighter;
+}
+
+#story a:hover {
+  color: #f2f2f2;
+}
+
+#holyCow{
+  color: #f2f2f2;
+  font-size: 90px;
+  text-align: center;
+  /* font-family: 'Lobster', cursive; */
+  font-family: 'Bungee', cursive;
+  font-weight: lighter;
+
+}
+
+#menuBlurb{
+  color: #f2f2f2;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-weight: lighter;
+}
+
+#menu{
+  color: #25274D;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-weight: lighter;
+}
+
+#menu a:hover {
+  color: #f2f2f2;
+}
+
+
+
+  h1{
+    /* font-weight: bold; */
+    color: #f2f2f2;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+  }
+
+ 
+ 
+
+
+  @media screen and (max-width: 480px){
+      #header {display:none;}
+  }
+
+  
+  .content {
+    padding: 16px;
+    color: #f2f2f2;
+    /* background-color: #379683; */
+    background-color: #29648A;
+    background-color: #3dc1ab;
+    font-family: "geometriaregular";
+    
+  }
+
+  
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .nav-wrapper{
+    min-height: 67px
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
+footer {
+ 
+  text-align: center;
+  color: white;
+}
+
+img { 
+    max-width: 100%; 
+    height: auto; 
+}
+
+  /*  <link rel = "stylesheet" type = "text/css" href = "style.css" /> */
