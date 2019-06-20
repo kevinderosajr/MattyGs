@@ -146,8 +146,15 @@ body {
  
 
 
-  @media screen and (max-width: 480px){
+  /* @media screen and (max-width: 480px){
       #header {display:none;}
+  } */
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
   }
 
   
