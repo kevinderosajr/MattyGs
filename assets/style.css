@@ -13,8 +13,12 @@ font-family: 'Gravitas One', cursive; */
     /* background-color: #05386B; */
     background-color: #25274D;
     z-index: 1;
-
-
+  }
+  #menuNavbar {
+    overflow: hidden;
+    /* background-color: #05386B; */
+    background-color: #3dc1ab;
+    z-index: 1;
   }
   
 
@@ -28,16 +32,33 @@ font-family: 'Gravitas One', cursive; */
     font-weight: lighter;
     font-size: 30px;
     font-family: 'Lobster', cursive;
-
-   
+  }
+  #menuNavbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
   }
   
   #navbar a:hover {
     background-color: #ddd;
     color: #05386B;
   }
+  #menuNavbar a:hover {
+    background-color: #ddd;
+    color: #05386B;
+  }
   
   #navbar a.active {
+    background-color: rgb(156, 158, 165);
+    color: white;
+  }
+  #menuNavbar a.active {
     background-color: rgb(156, 158, 165);
     color: white;
   }
@@ -54,6 +75,11 @@ body {
     font-size: 20px;
   }
 
+  #menuBody{
+    background-color: #25274D;
+  
+  }
+
   
   #cheers{
     color: #f2f2f2;
@@ -67,7 +93,7 @@ body {
 
 #headline{
   color: #f2f2f2;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     padding: 0px 0px 0px 0px;
