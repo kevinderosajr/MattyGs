@@ -225,7 +225,7 @@ body {
     /* background-color: #379683; */
     background-color: #29648A;
     background-color: #3dc1ab;
-    font-family: "geometriaregular";
+    
     
   }
 
@@ -253,9 +253,11 @@ body {
 }
 
 footer {
- 
+  color: #25274D;
+  font-size: 20px;
   text-align: center;
-  color: white;
+  font-family: 'Bungee', cursive;
+  font-weight: lighter;
 }
 
 img { 
