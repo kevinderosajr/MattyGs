@@ -107,6 +107,13 @@ body {
     font-family: 'Bungee', cursive;
     font-weight: lighter;
 }
+#stay{
+  color: #25274D;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-weight: lighter;
+}
 
 #blurb{
   color: #f2f2f2;
