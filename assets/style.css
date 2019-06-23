@@ -85,7 +85,7 @@ body {
   
   #cheers{
     color: #f2f2f2;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     /* font-family: 'Lobster', cursive; */
     font-family: 'Bungee', cursive;
@@ -196,34 +196,6 @@ body {
     font-family: 'Bungee', cursive;
   }
 
- 
- 
-
-
-  /* @media screen and (max-width: 480px){
-      #header {display:none;}
-  } */
-/* 
-  [class*="col-"] {
-    width: 100%;
-  }
-  
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    /* .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  } */ */
-
   /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -251,13 +223,9 @@ body {
     padding: 16px;
     color: #f2f2f2;
     /* background-color: #3dc1ab; */
-    background-color: black;
-    
-    
+    background-color: black;  
   }
 
-  
-  
   .sticky {
     position: fixed;
     top: 0;
