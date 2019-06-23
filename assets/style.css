@@ -10,14 +10,14 @@ font-family: 'Gravitas One', cursive; */
   
   #navbar {
     overflow: hidden;
-    /* background-color: #05386B; */
-    background-color: #25274D;
+    /* background-color: #25274D; */
+    background-color: black;
     z-index: 1;
   }
   #menuNavbar {
     overflow: hidden;
-    /* background-color: #05386B; */
-    background-color: #3dc1ab;
+    background-color: black;
+    /* background-color: #3dc1ab; */
     z-index: 1;
   }
   
@@ -65,7 +65,8 @@ font-family: 'Gravitas One', cursive; */
 
   .headerImage {
     /* background-color: #05386B; */
-    background-color: #25274D;
+    /* background-color: #25274D; */
+    background-color: black;
     text-align: center;
   }
 
@@ -76,14 +77,15 @@ body {
   }
 
   #menuBody{
-    background-color: #25274D;
+    /* background-color: #25274D; */
+    background-color: black;
   
   }
 
   
   #cheers{
     color: #f2f2f2;
-    font-size: 100px;
+    font-size: 60px;
     text-align: center;
     /* font-family: 'Lobster', cursive; */
     font-family: 'Bungee', cursive;
@@ -101,14 +103,16 @@ body {
 }
 
 #buildIt{
-  color: #25274D;
+  /* color: #25274D; */
+  color: #f2f2f2;
     font-size: 40px;
     text-align: center;
     font-family: 'Bungee', cursive;
     font-weight: lighter;
 }
 #stay{
-  color: #25274D;
+  /* color: #25274D; */
+  color: #f2f2f2;
     font-size: 40px;
     text-align: center;
     font-family: 'Bungee', cursive;
@@ -124,7 +128,8 @@ body {
 }
 
 #story{
-  color: #25274D;
+  /* color: #25274D; */
+  color: #f2f2f2;
     font-size: 30px;
     text-align: center;
     font-family: 'Bungee', cursive;
@@ -161,7 +166,8 @@ body {
 }
 
 #menu{
-  color: #25274D;
+  /* color: #25274D; */
+  color: #f2f2f2;
     font-size: 30px;
     text-align: center;
     font-family: 'Bungee', cursive;
@@ -236,9 +242,8 @@ body {
   .content {
     padding: 16px;
     color: #f2f2f2;
-    /* background-color: #379683; */
-    background-color: #29648A;
-    background-color: #3dc1ab;
+    /* background-color: #3dc1ab; */
+    background-color: black;
     
     
   }
@@ -267,7 +272,8 @@ body {
 }
 
 footer {
-  color: #25274D;
+  /* color: #25274D; */
+  color: #f2f2f2;
   font-size: 20px;
   text-align: center;
   font-family: 'Bungee', cursive;
