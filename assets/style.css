@@ -25,7 +25,8 @@ font-family: 'Gravitas One', cursive; */
   #navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    /* color: #f2f2f2; */
+    color: #3dc1ab;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -36,7 +37,8 @@ font-family: 'Gravitas One', cursive; */
   #menuNavbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    /* color: #f2f2f2; */
+    color: #3dc1ab;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -47,11 +49,13 @@ font-family: 'Gravitas One', cursive; */
   
   #navbar a:hover {
     background-color: #ddd;
-    color: #05386B;
+    /* color: #05386B; */
+    color: black;
   }
   #menuNavbar a:hover {
     background-color: #ddd;
-    color: #05386B;
+    /* color: #05386B; */
+    color: black;
   }
   
   #navbar a.active {
@@ -85,7 +89,7 @@ body {
   
   #cheers{
     color: #f2f2f2;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     /* font-family: 'Lobster', cursive; */
     font-family: 'Bungee', cursive;
@@ -215,7 +219,7 @@ body {
   [class*="col-"] {
     width: 100%;
   }
-  #cheers{font-size: 60px}
+  #cheers{font-size: 40px}
 }
 
   
